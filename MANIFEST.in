@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sahayog_report *.css
+recursive-include sahayog_report *.csv
+recursive-include sahayog_report *.html
+recursive-include sahayog_report *.ico
+recursive-include sahayog_report *.js
+recursive-include sahayog_report *.json
+recursive-include sahayog_report *.md
+recursive-include sahayog_report *.png
+recursive-include sahayog_report *.py
+recursive-include sahayog_report *.svg
+recursive-include sahayog_report *.txt
+recursive-exclude sahayog_report *.pyc
