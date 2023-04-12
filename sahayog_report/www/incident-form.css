@@ -1,0 +1,29 @@
+/* Add this to a separate CSS file and link it in the HTML head */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply Frappe theme to the header */
+.header {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+/* Adjust the login status indicator position */
+.logged-in::before,
+.logged-out::before {
+  position: relative;
+  top: -1px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 767px) {
+  .header {
+    font-size: 1rem;
+  }
+}

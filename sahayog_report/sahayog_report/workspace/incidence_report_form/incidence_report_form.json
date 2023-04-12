@@ -1,0 +1,48 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\" style=\\\"\\\"><b>             Welcome to Sahayog Incidence Report System</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"List\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Form\",\"col\":3}}]",
+ "creation": "2023-03-23 17:43:38.736328",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Incidence Report Form",
+ "links": [],
+ "modified": "2023-04-11 10:29:55.808626",
+ "modified_by": "Administrator",
+ "module": "Sahayog Report",
+ "name": "Incidence Report Form",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.1,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "New Form",
+   "link_to": "incidence-form",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New",
+   "link_to": "Incidence Report",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "List",
+   "link_to": "Incidence Report",
+   "type": "DocType"
+  }
+ ],
+ "title": "Incidence Report Form"
+}
